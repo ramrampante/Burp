@@ -1,0 +1,5 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@Burp/core/dist/style.css';
+@import '@Burp/dashboard/dist/style.css';
+@import '@Burp/drag-drop/dist/style.css';
+@import '@Burp/progress-bar/dist/style.css';
