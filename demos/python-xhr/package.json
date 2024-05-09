@@ -1,0 +1,22 @@
+{
+  "name": "@Burp-example/python-xhr",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@Burp/core": "workspace:*",
+    "@Burp/dashboard": "workspace:*",
+    "@Burp/webcam": "workspace:*",
+    "@Burp/xhr-upload": "workspace:*"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.3",
+    "vite": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "installPythonDeps": "python3 -m pip install -r requirements.txt",
+    "start": "npm-run-all --parallel start:server start:client",
+    "start:client": "vite",
+    "start:server": "mkdir -p uploads && python3 server.py"
+  }
+}
