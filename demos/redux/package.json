@@ -1,0 +1,21 @@
+{
+  "name": "@Burp-example/redux",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "@Burp/core": "workspace:*",
+    "@Burp/dashboard": "workspace:*",
+    "@Burp/store-redux": "workspace:*",
+    "@Burp/tus": "workspace:*",
+    "redux": "^4.2.1",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  }
+}
