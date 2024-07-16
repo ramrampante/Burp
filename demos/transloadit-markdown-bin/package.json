@@ -1,0 +1,22 @@
+{
+  "name": "@Burp-example/transloadit-markdown-bin",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@Burp/core": "workspace:*",
+    "@Burp/dashboard": "workspace:*",
+    "@Burp/drop-target": "workspace:*",
+    "@Burp/image-editor": "workspace:*",
+    "@Burp/remote-sources": "workspace:*",
+    "@Burp/transloadit": "workspace:*",
+    "@Burp/webcam": "workspace:*",
+    "marked": "^4.0.18"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  }
+}
