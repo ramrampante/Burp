@@ -1,0 +1,23 @@
+{
+  "name": "@Burp-example/vue3",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@Burp/core": "workspace:*",
+    "@Burp/dashboard": "workspace:*",
+    "@Burp/drag-drop": "workspace:*",
+    "@Burp/progress-bar": "workspace:*",
+    "@Burp/tus": "workspace:*",
+    "@Burp/vue": "workspace:*",
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "vite": "^4.0.0"
+  }
+}
